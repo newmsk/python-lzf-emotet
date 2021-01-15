@@ -61,7 +61,7 @@
  * (very roughly) 15% faster. This is the preferred mode of operation.
  */
 #ifndef VERY_FAST
-# define VERY_FAST 1
+# define VERY_FAST 0
 #endif
 
 /*

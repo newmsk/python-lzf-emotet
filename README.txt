@@ -1,3 +1,7 @@
+Library updated to compress/decompress Emotet data.
+
+Install using `pip install git+https://github.com/joaogodinho/python-lzf-emotet.git`
+
 python-lzf: liblzf python bindings
 
 This package is just a straight translation of the C api of liblzf to python.

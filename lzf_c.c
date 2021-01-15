@@ -242,7 +242,7 @@ lzf_compress (const void *const in_data, unsigned int in_len,
           ip++;
 # endif
 #else
-          ip -= len + 1;
+/*          ip -= len + 1;
 
           do
             {
@@ -250,7 +250,7 @@ lzf_compress (const void *const in_data, unsigned int in_len,
               htab[IDX (hval)] = ip - LZF_HSLOT_BIAS;
               ip++;
             }
-          while (len--);
+          while (len--); */
 #endif
         }
       else
