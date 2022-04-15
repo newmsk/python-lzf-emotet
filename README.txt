@@ -1,6 +1,6 @@
 Library updated to compress/decompress Emotet data.
 
-Install using `pip install git+https://github.com/joaogodinho/python-lzf-emotet.git`
+Install using `pip install git+https://github.com/newmsk/python-lzf-emotet.git`
 
 python-lzf: liblzf python bindings
 

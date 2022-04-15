@@ -4,8 +4,8 @@ from setuptools import setup, Extension
 VERSION = (0, 2, 4)
 
 setup(
-    name="python-lzf",
-    description="C Extension for liblzf",
+    name="python-lzf-emotet",
+    description="C Extension for liblzf, and modified for emotet",
     version=".".join(filter(None, map(str, VERSION))),
     author="Travis Parker",
     author_email="travis.parker@gmail.com",
